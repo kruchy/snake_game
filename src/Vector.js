@@ -16,7 +16,7 @@ export default class Vector extends Component {
     }
 
     equals(vector) {
-        return this.x == vector.x && this.y == vector.y;
+        return this.x === vector.x && this.y === vector.y;
     }
 
     static random(size) {
