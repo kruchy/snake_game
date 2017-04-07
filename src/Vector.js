@@ -8,7 +8,7 @@ export default class Vector {
     }
 
     add(v) {
-        return new Vector(this.x + v, this.y + v);
+        return new Vector(this.x + v.x, this.y + v.y);
     }
 
     mod(size) {
